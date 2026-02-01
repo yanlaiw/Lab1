@@ -1,6 +1,8 @@
 /****************
-LE2: Introduction to Unnamed Pipes
+LAB1: Introduction to Unnamed Pipes
 ****************/
+#include <stdio.h> // perror
+#include <stdlib.h> // exit, EXIT_FAILURE
 #include <unistd.h> // pipe, fork, dup2, execvp, close
 using namespace std;
 
